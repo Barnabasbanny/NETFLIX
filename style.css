@@ -39,6 +39,12 @@ h4{
     font-size: 2.5rem;
 }
 
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
 /* Navbar Stylings  */
 nav{
     display: flex;
@@ -128,6 +134,7 @@ border: 1px solid #AAAAAA;
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 10px;
 }
 
 .get-started  button{
@@ -210,6 +217,120 @@ border: 1px solid #AAAAAA;
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 10px;
 }
 
 /* Footer stylings  */
+footer{
+    padding: 5% 20%;
+    color:  #757575 !important;
+}
+footer a{
+    color:  #757575 !important;
+
+}
+
+footer p{
+    margin: 4% 0;
+}
+
+.footer-links{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 35px;
+}
+
+.footer-links li{
+    font-size: 0.85rem;
+    margin: 3% 0;
+}
+
+footer .dark{
+    width: fit-content;
+    padding: 1% 5%;
+    margin: 3% 0 1%;
+}
+
+footer p:last-of-type{
+    font-size: 0.78rem;
+}
+
+/* sign in stylings */
+
+.sign-in {
+
+        height: 700px;
+        background-image: url('images/Landingpage/hero.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* place-items: center; */
+        /* text-align: center; */
+    
+}
+
+.sign-in-frame {
+    display: grid;
+    width: 30%;
+    background-color: rgba(0, 0, 0, 0.75);
+border-radius: 4px;
+padding: 3% 3%;
+}
+
+.sign-in-frame .input {
+    display: grid;
+    margin: 2% 0;
+    padding: 10px 5px;
+}
+.sign-in-frame .input input{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    background-color: #333333;
+    border: none;
+    border-radius: 3px;
+    padding: 1% 2%;
+    height: 50px;
+}
+
+.sign-in-frame .input a {
+    margin-top: 3%;
+    margin-bottom: 0;
+    border-radius: 3px;
+    padding: 5%;
+    height: 50px;
+}
+
+.sign-in-frame .remember-me {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sign-in-frame .facebook {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 5% 0;
+}
+
+.sign-in-frame .new-to-netflix p {
+    color: #737373;
+    margin: 5% 0;
+}
+
+.sign-in-frame .new-to-netflix p span {
+    color: white;
+}
+
+.sign-in-frame .page {
+    color: #737373;
+}
+
+.sign-in-frame .page span {
+    color: blue;
+    opacity: 0.8;
+}
